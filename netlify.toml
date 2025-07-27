@@ -1,233 +1,57 @@
-# 初始中文
-[[redirects]]
-  from = "/"
-  to = "/zh-hans"
-  status = 308
-
-# 搜尋頁面
-[[redirects]]
-  from = "/s"
-  to = "https://cdn.greasyfork.org.cn/searchw"
-  status = 200
-
-# 重新導向頁面下載
-[[redirects]]
-  from = "/redirect/"
-  to = "https://cdn.greasyfork.org.cn/redirect/"
-  status = 200
-
-# 搜尋 API
-[[redirects]]
-  from = "/p/1E3F8A9F-DDC6-4D76-B101-5683AA13E349"
-  to = "https://api-edge-sakiko-dispatch-network-aws-cdn.dahi.edu.eu.org/efa18acc-c5b8-480d-bf3f-ee419de809e3"
-  status = 307
-
-# 特別處理封禁
-[[redirects]]
-  from = "/*/discussions*"
-  to = "/404"
-  status = 308
-
-[[redirects]]
-  from = "/*/moderator_actions*"
-  to = "/404"
-  status = 308
-
-# 用戶子服務
-[[redirects]]
-  from = "/zh-hans/users*"
-  to = "https://gfork.zh-tw.eu.org/zh-hans/users/:splat"
-  status = 307
-
-[[redirects]]
-  from = "/en/users*"
-  to = "https://gfork.zh-hk.eu.org/en/users/:splat"
-  status = 307
-
-[[redirects]]
-  from = "/ja/users*"
-  to = "https://gfork.zh-hk.eu.org/ja/users/:splat"
-  status = 307
-
-# 主要頁面
-[[redirects]]
-  from = "/zh-hans"
-  to = "https://cdn.greasyfork.org.cn/hans"
-  status = 200
-
-[[redirects]]
-  from = "/zh-hans/"
-  to = "/zh-hans"
-  status = 308
-
-[[redirects]]
-  from = "/ja"
-  to = "https://cdn.greasyfork.org.cn/ja"
-  status = 200
-
-[[redirects]]
-  from = "/ja/"
-  to = "/ja"
-  status = 308
-
-[[redirects]]
-  from = "/en"
-  to = "https://cdn.greasyfork.org.cn/en"
-  status = 200
-
-[[redirects]]
-  from = "/en/"
-  to = "/en"
-  status = 308
-
-[[redirects]]
-  from = "/zh-CN"
-  to = "/zh-hans"
-  status = 308
-
-# 語言特別處理
-[[redirects]]
-  from = "/zh-hant/*"
-  to = "/zh-hans/:splat"
-  status = 308
-
-[[redirects]]
-  from = "/zh-TW/*"
-  to = "/zh-hans/:splat"
-  status = 308
-
-[[redirects]]
-  from = "/zh-CN/*"
-  to = "/zh-hans/:splat"
-  status = 308
-
-[[redirects]]
-  from = "/zh-tw/*"
-  to = "/zh-hans/:splat"
-  status = 308
-
-[[redirects]]
-  from = "/zh-cn/*"
-  to = "/zh-hans/:splat"
-  status = 308
-
-# 靜態
-[[redirects]]
-  from = "/robots.txt"
-  to = "https://cdn.greasyfork.org.cn/rrobots.txt"
-  status = 200
-
-[[redirects]]
-  from = "/ads.txt"
-  to = "https://cdn.greasyfork.org.cn/ads.txt"
-  status = 200
-
-[[redirects]]
-  from = "/sitemap.xml"
-  to = "https://cdn.greasyfork.org.cn/sitemap.xml"
-  status = 200
-
 [[redirects]]
   from = "/site.webmanifest"
   to = "https://cdn.greasyfork.org.cn/site.webmanifest"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/favicon-32x32.png"
   to = "https://cdn.greasyfork.org.cn/favicon-32x32.png"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/favicon-16x16.png"
   to = "https://cdn.greasyfork.org.cn/favicon-16x16.png"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/favicon.ico"
   to = "https://cdn.greasyfork.org.cn/favicon.ico"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/apple-touch-icon.png"
   to = "https://cdn.greasyfork.org.cn/apple-touch-icon.png"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/android-chrome-512x512.png"
   to = "https://cdn.greasyfork.org.cn/android-chrome-512x512.png"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/android-chrome-192x192.png"
   to = "https://cdn.greasyfork.org.cn/android-chrome-192x192.png"
   status = 200
+  force = true
 
 [[redirects]]
-  from = "/BingSiteAuth.xml"
-  to = "https://cdn.greasyfork.org.cn/BingSiteAuth.xml"
+  from = "/efa18acc-c5b8-480d-bf3f-ee419de809e3"
+  to = "https://dgkkhxhkj.dahi.edu.eu.org/zh-CN/scripts.json"
   status = 200
 
 [[redirects]]
-  from = "/vite/assets/*"
-  to = "https://cdn.greasyfork.org.cn/vite/assets/:splat"
-  status = 200
-
-# 自定頁面
-[[redirects]]
-  from = "/*/search"
-  to = "https://cdn.greasyfork.org.cn/search"
-  status = 200
-
-[[redirects]]
-  from = "/page/*"
-  to = "https://cdn.greasyfork.org.cn/page/:splat"
-  status = 200
-
-[[redirects]]
-  from = "/*/help/installing-user-scripts"
-  to = "/page/installing-user-scripts"
-  status = 308
-
-[[redirects]]
-  from = "/*/help"
-  to = "https://cdn.greasyfork.org.cn/help"
-  status = 200
-
-# 詳情頁面重新導向
-[[redirects]]
-  from = "/ja/scripts/*"
-  to = "https://gfork.zh-hk.eu.org/ja/scripts/:splat"
-  status = 308
-
-[[redirects]]
-  from = "/en/scripts/*"
-  to = "https://gfork.zh-hk.eu.org/en/scripts/:splat"
-  status = 308
-
-[[redirects]]
-  from = "/zh-hans/scripts/*"
-  to = "https://gfork.zh-tw.eu.org/zh-hans/scripts/:splat"
-  status = 308
-
-# 初始資源重新導向
-[[redirects]]
-  from = "/rails/*"
-  to = "https://xdrcgfn.dahi.edu.eu.org/rails/:splat"
-  status = 200
-
-[[redirects]]
-  from = "/scripts/*"
-  to = "https://xdrcgfn.dahi.edu.eu.org/scripts/:splat"
-  status = 200
-
-[[redirects]]
-  from = "/*/scripts"
-  to = "/404"
-  status = 307
-
-# 全局空服務
-[[redirects]]
-  from = "/*"
-  to = "https://cdn.greasyfork.org.cn/404"
+  from = "/robots.txt"
+  to = "https://cdn.greasyfork.org.cn/robots.txt"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/*"
+  to = "https://home.greasyfork.org.cn/404"
+  status = 308
