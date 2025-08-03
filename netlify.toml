@@ -50,8 +50,3 @@
   to = "https://cdn.greasyfork.org.cn/robots.txt"
   status = 200
   force = true
-
-[[redirects]]
-  from = "/*"
-  to = "https://home.greasyfork.org.cn/404"
-  status = 308
